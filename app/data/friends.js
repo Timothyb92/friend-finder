@@ -79,6 +79,31 @@ var friendsArr = [
             3
         ]
     }
-]
+];
+
+// function findCompatible(postArray, friendArray){
+//     var matches = [];
+//     var num;
+//     var temp;
+//     var thisDistance;
+//     for(var i = 0; i < 10; i++){
+//         temp = postArray[i] - friendArray[i];
+//         if (temp < 0){
+//             temp *= -1;
+//         }
+//         thisDistance += temp;
+//     }
+//     if (i === 0){
+//         num = thisDistance;
+//     }
+
+//     if (thisDistance === num){
+//         matches.push(friendArray[i])
+//     } else if (thisDistance < num){
+//         matches = [friendArray[i]]
+//     }
+// }
+
+
 
 module.exports = friendsArr;
